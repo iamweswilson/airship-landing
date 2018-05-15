@@ -1,0 +1,59 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: url("/img/bkgd.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #525252; }
+
+h2 {
+  text-transform: uppercase;
+  font-size: 1.4em;
+  font-weight: 500;
+  margin: 6rem 0 2rem;
+  color: #000000; }
+
+p {
+  color: #525252;
+  font-size: 0.95em;
+  margin: 0 0 20px; }
+
+a {
+  text-decoration: underline;
+  color: #000000;
+  word-wrap: break-word; }
+
+.main-content {
+  background: rgba(255, 255, 255, 0.8);
+  min-height: 100vh;
+  padding: 3rem 5rem; }
+
+.centered-logo {
+  text-align: center;
+  width: 100%; }
+
+.brand {
+  margin: 2rem auto 0; }
+
+.quote-wrapper {
+  text-align: center; }
+
+.quote {
+  font-family: 'Slabo 27px', serif;
+  color: #525252;
+  font-size: 2.5em;
+  line-height: 1em;
+  margin-top: 30px; }
+
+.main-button {
+  background: #FF5553;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1.1875rem 6rem;
+  font-size: 1.25rem;
+  line-height: 2;
+  border-radius: 2rem;
+  white-space: nowrap; }
+  .main-button:hover, .main-button:focus {
+    background: #D33D3C;
+    color: white;
+    text-decoration: none; }
