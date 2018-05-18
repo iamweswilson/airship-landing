@@ -24,6 +24,26 @@ a {
 	color: $headings;
 	word-wrap:break-word;
 }
+pre {
+	padding: 16px;
+	overflow: auto;
+	font-size: 85%;
+	line-height: 1.45;
+	background-color: #f6f8fa;
+	border-radius: 3px;
+	border: none;
+	code {
+		display: inline;
+		max-width: auto;
+		padding: 0;
+		margin: 0;
+		overflow: visible;
+		line-height: inherit;
+		word-wrap: normal;
+		background-color: transparent;
+		border: 0;
+	}
+}
 .main-content {
 	background: rgba($color: #ffffff, $alpha: 0.8);
 	min-height: 100vh;

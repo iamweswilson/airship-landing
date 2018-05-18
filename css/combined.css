@@ -21,6 +21,25 @@ a {
   color: #000000;
   word-wrap: break-word; }
 
+pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f6f8fa;
+  border-radius: 3px;
+  border: none; }
+  pre code {
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0; }
+
 .main-content {
   background: rgba(255, 255, 255, 0.8);
   min-height: 100vh;
