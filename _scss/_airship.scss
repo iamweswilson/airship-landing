@@ -53,6 +53,13 @@ pre {
 	text-align: left;
 	width: 40%;
 }
+
+@media screen and (max-width: 576px) {
+    .airship-logo {
+		width: 90%;
+	}
+}
+
 .brand {
 	margin: 2rem auto 0;
 }
@@ -67,6 +74,13 @@ pre {
 	line-height: 1em;
 	margin-top: 30px;
 }
+
+@media screen and (max-width: 576px) {
+    .quote {
+		font-size: 1.6em;;
+	}
+}
+
 .main-button {
 	background: $mainbtn;
 	color: white;
