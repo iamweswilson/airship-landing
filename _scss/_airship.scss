@@ -9,8 +9,8 @@ body {
 }
 h2 {
 	text-transform: uppercase;
-	font-size: 1.4em;
-	font-weight: 500;
+	font-size: 1.2em;
+	font-weight: 600;
 	margin: 6rem 0 2rem;
 	color: $headings;
 }
@@ -49,20 +49,21 @@ pre {
 	min-height: 100vh;
 	padding: 3rem 5rem;
 }
-.centered-logo {
-	text-align: center;
-	width: 100%;
+.airship-logo {
+	text-align: left;
+	width: 40%;
 }
 .brand {
 	margin: 2rem auto 0;
 }
 .quote-wrapper {
-	text-align: center;
+	text-align: left;
 }
 .quote {
-	font-family: 'Slabo 27px', serif;
+	font-family: 'Roboto', sans-serif;
 	color: $type;
-	font-size: 2.5em;
+	font-size: 1.85em;
+	font-weight: 100;
 	line-height: 1em;
 	margin-top: 30px;
 }
