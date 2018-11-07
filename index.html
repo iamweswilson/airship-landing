@@ -13,36 +13,68 @@ permalink: /
                         <img class="brand" src="/img/logo.svg" alt="">
                     </div>
                     <div class="quote-wrapper">
-                        <div class="quote">Airship makes managing the life cycle of open infrastructure simple, repeatable, and resilient.</div>
+                        <div class="quote">Elevate Your Infrastructure</div>
                     </div>
                     <p>&nbsp;</p>
                     <p>
-                        Airship is a collection of interoperable and loosely coupled open source tools that provide automated cloud provisioning and management in a declarative way.
+                        Airship is a collection of loosely coupled but interoperable open source tools that declaratively automate cloud provisioning. Airship is a robust delivery mechanism for organizations who want to embrace containers as the new unit of infrastructure delivery at scale. Starting from raw bare metal infrastructure, Airship manages the full lifecycle of data center infrastructure to deliver a production-grade Kubernetes cluster with Helm deployed artifacts, including OpenStack-Helm.  Airship allows operators to manage their infrastructure deployments and lifecycle through the declarative YAML documents that describe an Airship environment.
                     </p>
                     <p>
-                        Airship helps operators take control of their infrastructure, by providing a declarative framework for defining and managing the life cycle of open infrastructure tools and the hardware below. These tools include OpenStack for Virtual Machines, Kubernetes for container orchestration, and MaaS for bare metal, with support for OpenStack Ironic on the way.
+                        The introduction of containers has led to a revolution in how applications are deployed and maintained through the use of powerful container orchestration platforms like Kubernetes. Airship applies these principles of application management to datacenter operations. Airship allows operators to declare their entire infrastructure up front. Hard assets, such as bare metal servers and network settings, are managed alongside soft assets, such as the helm charts and application containers.  This declarative approach allows Airship to provide a repeatable, and predictable mechanism for maintaining service-critical infrastructure and the software running there.
                     </p>
                     <p>
-                        Some of the largest infrastructure operators in the world, including AT&T and SKT, are actively designing, testing, and deploying Airship to manage their complex infrastructure at scale.
+                        Airship has a single workflow for managing both initial installations and updates. An operator only needs to make a change to an Airship YAML configuration, and the Airship platform does the rest of the work. When managing complex IaaS projects such as OpenStack, anything from minor service configuration updates to major upgrades are all handled in the same way: by simply modifying the YAML configuration and submitting it to the Airship runtime.
                     </p>
                     <p>
-                        The code is available under the Apache 2 license.
+                        <a href="https://www.dropbox.com/s/0iibvhydj64v6zy/OpenStack_AirshipSolutionBrief_102618_v4.pdf?dl=0" target="_blank">View the architecture diagram and additional details</a>.
+                    </p>
+                    <h2>Project News</h2>
+                    <p>
+                        Today the Airship community features its Release Candidate, ahead of the 1.0 version expected in early 2019. The 1.0 Release Candidate represents a significant milestone, providing a platform that can be (and is) used for the deployment and management of real-world, containerized OpenStack environments.
+                    </p>
+                    <p>
+                        The community has been actively developing the release candidate since the project was introduced as an OSF pilot project in May 2018 and has achieved security at scale, scalable operations and reliable upgrades, as well nightly CI/CD validation of integrations and example deployments. The release candidate is ready to try, and the community has developed “Airship in a Bottle,” an easy way to get started. Features on the roadmap for the 1.0 release include thorough documentation and OpenStack Ironic bare metal cloud integration.
+                    </p>
+                    <p>
+                        <a href="https://wiki.openstack.org/wiki/Airship_Release_Candidate" target="_blank">Read the Airship 1.0 Release Candidate Notes for full details</a>
                     </p>
                     <h2>Take it for a Ride</h2>
                     <p>
+                        <strong>Start with the Docs</strong>
+                    </p>
+                    <p>
+                        <ul>
+                            <li>Docs: <a href="https://airship-treasuremap.readthedocs.io/en/latest/" target="_blank">https://airship-treasuremap.readthedocs.io/en/latest/</a></li>
+                            <li>Wiki: <a href="https://wiki.openstack.org/wiki/Airship" target="_blank">https://wiki.openstack.org/wiki/Airship</a></li>
+                            <li>Git: <a href="https://git.airshipit.org/cgit" target="_blank">git.airshipit.org</a></li>
+                        </ul>
+                    </p>
+                    <p>
+                        <strong>Airship in a Bottle</strong>
+                    </p>
+                    <p>
                             <a href="https://git.airshipit.org/cgit/airship-in-a-bottle/" >Airship in a Bottle</a> let's you try all of the services in a single environment appropriate for testing. Try out a single-node preview in a fresh Ubuntu 16.04 VM:
                     </p>
-                    <pre><code>sudo -i
-mkdir -p /root/deploy && cd "$_"
-git clone https://github.com/openstack/airship-in-a-bottle
-cd /root/deploy/airship-in-a-bottle/manifests/dev_single_node
-./airship-in-a-bottle.sh</code></pre>
+                    <pre>
+                        <code>
+                            sudo -i
+                            mkdir -p /root/deploy && cd "$_"
+                            git clone https://github.com/openstack/airship-in-a-bottle
+                            cd /root/deploy/airship-in-a-bottle/manifests/dev_single_node
+                            ./airship-in-a-bottle.sh
+                        </code>
+                    </pre>
                     <h2>Join The Community</h2>
                     <p>
-                        Mailing Lists: <a href="http://lists.airshipit.org">lists.airshipit.org</a>
+                        Airship is an independent open source community collaboratively developing code under the Apache 2 license. Anyone is welcome to join and contribute code, documentation, and use cases. The project is supported by the OpenStack Foundation and follows the OpenStack Foundation Code of Conduct.
                     </p>
                     <p>
-                        Freenode IRC: #airshipit
+                        <ul>
+                            <li>Freenode IRC: #airshipit</li>
+                            <li>Mailing Lists: <a href="http://lists.airshipit.org">lists.airshipit.org</a></li>
+                            <li>Twitter: <a href="https://twitter.com/airshipproject">@airshipproject</a></li>
+                            <li>E-mail: <a href="mailto:info@airshipit.org">info@airshipit.org</a></li>
+                        </ul>
                     </p>
                     <p>
                         We follow the <a href="http://www.openstack.org/legal/community-code-of-conduct/">OpenStack Foundation Code of Conduct</a>
